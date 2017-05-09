@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">k-learn</string>
+    <string name="titulo">Titulo</string>
+    <string name="boton1">Aprende</string>
+    <string name="boton2">Practica</string>
+    <string name="boton3">Prueba</string>
+    <string name="next">Siguiente</string>
+    <string name="color">Colores</string>
+    <string name="num">Numeros</string>
+    <string name="vocal">Vocales</string>
+    <string name="forma">Formas</string>
+
+    <string name="rojo">Rojo</string>
+    <string name="azul">Azul</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="blanco">Blanco</string>
+
+</resources>
