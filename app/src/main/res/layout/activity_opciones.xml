@@ -1,68 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimaryDark"
     android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/titulo"
-            android:textSize="70sp"/>
-
-    </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="70dp">
-        <Button
-            android:id="@+id/col"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:text="Colores"
-            android:textSize="20sp"
-            android:layout_marginRight="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/fondonar"
+            android:elevation="3dp"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/num"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:text="numeros"
-            android:textSize="20sp"
-            android:layout_marginLeft="15dp"/>
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp">
-        <Button
-            android:id="@+id/voc"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:text="Vocales"
-            android:textSize="20sp"
-            android:layout_marginRight="15dp"/>
 
-        <Button
-            android:id="@+id/form"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:text="Formas"
-            android:textSize="20sp"
-            android:layout_marginLeft="15dp"/>
-    </LinearLayout>
+                <ImageView
+                    android:layout_width="330dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/titulo" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/col"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/boton"
+                    android:text="Colores"
+                    android:textColor="@color/colorLetraBoton"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/num"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/boton"
+                    android:text="numeros"
+                    android:textColor="@color/colorLetraBoton"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/voc"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/boton"
+                    android:text="Vocales"
+                    android:textColor="@color/colorLetraBoton"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/form"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/boton"
+                    android:text="Formas"
+                    android:textColor="@color/colorLetraBoton"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
 
 </LinearLayout>

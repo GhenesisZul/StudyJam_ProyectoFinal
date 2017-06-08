@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nombres">
+        <item>@string/img1.rojo</item>
+        <item>@string/img2.azul</item>
+        <item>@string/img3.amarillo</item>
+        <item>@string/img4.verde</item>
+        <item>@string/img5.morado</item>
+        <item>@string/img6.blanco</item>
+        <item>@string/img7.marron</item>
+        <item>@string/img8.anaranjado</item>
+        <item>@string/img9.negro</item>
+    </string-array>
+
+    <string-array name="nomnum">
+        <item>@string/cero</item>
+        <item>@string/uno</item>
+        <item>@string/dos</item>
+        <item>@string/tres</item>
+        <item>@string/cuatro</item>
+        <item>@string/cinco</item>
+        <item>@string/seis</item>
+        <item>@string/siete</item>
+        <item>@string/ocho</item>
+        <item>@string/nueve</item>
+
+    </string-array>
+
+    <string-array name="nomvoc">
+
+        <item>@string/aa</item>
+        <item>@string/ee</item>
+        <item>@string/ii</item>
+        <item>@string/oo</item>
+        <item>@string/uu</item>
+    </string-array>
+
+    <string-array name="nomForm">
+        <item>@string/circulo</item>
+        <item>@string/rectangulo</item>
+        <item>@string/cuadrado</item>
+        <item>@string/triangulo</item>
+
+    </string-array>
+
+
+
+    <integer-array name="image">
+        <item>@drawable/rojo</item>
+        <item>@drawable/azul</item>
+        <item>@drawable/amarillo</item>
+        <item>@drawable/verde</item>
+        <item>@drawable/morado</item>
+        <item>@drawable/blanco</item>
+        <item>@drawable/marron</item>
+        <item>@drawable/anaranjado</item>
+        <item>@drawable/negro</item>
+    </integer-array>
+
+
+    <integer-array name="imagenum">
+        <item>@drawable/cero</item>
+        <item>@drawable/uno</item>
+        <item>@drawable/dos</item>
+        <item>@drawable/tres</item>
+        <item>@drawable/cuatro</item>
+        <item>@drawable/cinco</item>
+        <item>@drawable/seis</item>
+        <item>@drawable/siete</item>
+        <item>@drawable/ocho</item>
+        <item>@drawable/nueve</item>
+    </integer-array>
+
+    <integer-array name="imagevoc">
+
+        <item>@drawable/a</item>
+        <item>@drawable/e</item>
+        <item>@drawable/i</item>
+        <item>@drawable/o</item>
+        <item>@drawable/u</item>
+
+    </integer-array>
+
+    <integer-array name="imageForm">
+
+        <item>@drawable/circulo</item>
+        <item>@drawable/rectangulo</item>
+        <item>@drawable/cuadrado</item>
+        <item>@drawable/triangulo</item>
+
+
+    </integer-array>
+
+</resources>
